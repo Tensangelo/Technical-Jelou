@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 // Redux
-import { addToReadingList, removeFromReadingList } from '@/pages/redux/features/countBooksSlice';
-import { RootState } from '@/pages/redux/store';
+import { addToReadingList, removeFromReadingList } from '@/redux/features/countBooksSlice';
+import { RootState } from '@/redux/store';
 // Hooks
-import { useAppDispatch, useAppSelector } from '@/pages/redux/hooks';
+import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 // Components
 import { Book } from '@/utils/books';
 // Icons

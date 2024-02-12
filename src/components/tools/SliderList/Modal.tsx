@@ -1,8 +1,8 @@
 import { useState } from 'react';
 // Redux
-import { RootState } from '@/pages/redux/store';
+import { RootState } from '@/redux/store';
 // Hooks
-import { useAppSelector } from '@/pages/redux/hooks';
+import { useAppSelector } from '@/redux/hooks';
 // Icons
 import { IoMdCloseCircle } from "react-icons/io";
 import { IconType } from 'react-icons';

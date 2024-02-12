@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 // Hooks redux
-import { removeFromReadingList } from '@/pages/redux/features/countBooksSlice';
-import { useAppDispatch } from '@/pages/redux/hooks';
+import { removeFromReadingList } from '@/redux/features/countBooksSlice';
+import { useAppDispatch } from '@/redux/hooks';
 // Icons
 import { MdBookmarkRemove } from "react-icons/md";
 import { FaEye } from "react-icons/fa";

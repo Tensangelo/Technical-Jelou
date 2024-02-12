@@ -5,8 +5,8 @@ import { QueryClientProvider, QueryClient, QueryKey  } from "@tanstack/react-que
 import { Provider } from 'react-redux';
 import Head from "next/head";
 // Store
-import store from "./redux/store";
-import { usePersistedReadingList } from "./redux/features/countBooksSlice";
+import store from "@/redux/store";
+import { usePersistedReadingList } from "@/redux/features/countBooksSlice";
 // Components
 import Layout from '@/components/Layout'
 

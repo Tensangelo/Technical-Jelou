@@ -1,7 +1,7 @@
 // Redux
-import { RootState } from '@/pages/redux/store';
+import { RootState } from '@/redux/store';
 // Hooks
-import { useAppSelector } from '@/pages/redux/hooks';
+import { useAppSelector } from '@/redux/hooks';
 // Icons
 import { GiOpenBook } from "react-icons/gi";
 import { MdOutlineBookmarkAdd } from "react-icons/md";
