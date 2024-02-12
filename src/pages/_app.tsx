@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
           <title>Library jelou</title>
           <meta name="Test tecnico para jelou" content="Angelo Gaona Front End Developer" />
-          <link rel="icon" href="/logo.png" />
+          <link rel="icon" href='logo.jpg' />
       </Head>
       <QueryClientProvider client={queryClient}>
         <Provider store={store}>

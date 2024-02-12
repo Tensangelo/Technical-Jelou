@@ -27,7 +27,7 @@ const Modal = ({ children, nameBtn, IconBtn }: Props) => {
       <button
         onClick={toggleModal}
         type='button'
-        className='px-4 py-2 bg-gradient-to-br from-teal-400 via-teal-600 to-cyan-500 text-white text-base font-medium flex items-center justify-center rounded-lg transition ease-in-out hover:scale-105 active:opacity-65'
+        className='px-4 py-2 bg-gradient-to-br from-teal-400 via-teal-600 to-cyan-500 text-white text-base font-medium flex items-center justify-center rounded-lg transition ease-in-out hover:scale-105 active:opacity-65 my-2'
       >
         <IconBtn className='mx-1' />
         {nameBtn} ({readingList.length})

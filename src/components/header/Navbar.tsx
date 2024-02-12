@@ -6,6 +6,8 @@ import ModalListBooks from '../tools/SliderList/Modal';
 import BooksReadingList from '@/components/library/BooksReadingList';
 //  Icons
 import { FaBars, FaClipboardList } from 'react-icons/fa';
+import { FaGithub } from "react-icons/fa";
+import { IoLibrarySharp } from "react-icons/io5";
 
 const Navbar = () => {
 
@@ -49,12 +51,21 @@ const Navbar = () => {
         <ul className="flex justify-center items-center space-x-10 mr-10">
           <li>
             <Link href="/Library">
-              <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110">Biblioteca</p>
+              <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110 flex items-center justify-center">
+                <IoLibrarySharp className='mr-2' />
+                Biblioteca
+              </p>
             </Link>
           </li>
           <li>
-            <Link href="/">
-              <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110">GitHub</p>
+            <Link
+              href="https://github.com/Tensangelo/Technical-Jelou/tree/main"
+              className='flex justify-center items-center'
+            >
+              <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110 flex items-center justify-center">
+                <FaGithub className='mr-2' />
+                GitHub
+              </p>
             </Link>
           </li>
           <li>
@@ -74,12 +85,21 @@ const Navbar = () => {
           <ul className="flex flex-col items-center space-y-4 py-4">
             <li>
               <Link href="/Library">
-                <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110">Biblioteca</p>
+                <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110 flex items-center justify-center my-2">
+                  <IoLibrarySharp className='mr-2' />
+                  Biblioteca
+                </p>
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/Tensangelo/Technical-Jelou/tree/main">
-                <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110">GitHub</p>
+              <Link
+                href="https://github.com/Tensangelo/Technical-Jelou/tree/main"
+                className='flex justify-center items-center'
+              >
+                <p className="text-2xl transition ease-in-out hover:italic hover:underline hover:scale-110 flex items-center justify-center my-2">
+                  <FaGithub className='mr-2' />
+                  GitHub
+                </p>
               </Link>
             </li>
             <li>
